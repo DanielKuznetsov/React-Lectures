@@ -1,12 +1,10 @@
 import './App.css';
-import Login from "./user/Login"
-import Logout from "./user/Logout"
+import UserBar from "./user/UserBar"
 
 function App() {
   return (
     <div className="App">
-      <Login />
-      <Logout user="Daniel Bugl"/>
+      <UserBar />
     </div>
   );
 }
